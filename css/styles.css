@@ -498,6 +498,36 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 
+@media (max-width: 546px){
+    .primary-button{
+        padding: 10px;
+        margin-bottom: 15px;
+        
+    }
+
+
+
+    .media_cover{
+        display: none;
+    }
+
+    .baner_text h2{
+        font-size: 15px;
+
+    }
+
+    .cover{
+        background-image: url("https://www.purina-latam.com/sites/g/files/auxxlc391/files/styles/social_share_large/public/2020-12/purina-consulta-veterinaria-para-mascotas-lo-que-debes-saber.jpg?itok=-YoxixyF");
+        
+        background-repeat: no-repeat;
+        
+        
+        
+    }
+    
+
+}
+
 
 
 
