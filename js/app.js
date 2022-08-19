@@ -24,5 +24,5 @@ const getProduct = async () =>
         console.log(error);
     }
 }
-
+//
 getProduct()
