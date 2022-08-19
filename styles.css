@@ -101,7 +101,7 @@ border-radius: 10px;
 
 main{
     max-width: 1200px;
-    height: calc(100vh + 800px);
+    height: calc(100vh + 100px);
     padding: 40px;
     margin: auto;
 }
@@ -120,6 +120,27 @@ section{
     display: flex;
     justify-content: center;
     margin-top: 30px; margin-bottom: 30px;
+    
+}
+
+.cover img{
+    animation-name: zoomIn;
+     animation-duration: 2s;
+}
+
+.cover h1{
+    animation-name: lightSpeedInLeft;
+     animation-duration: 3s;
+}
+
+.cover h3{
+    animation-name: lightSpeedInLeft;
+     animation-duration: 2s;
+}
+
+.cover p{
+    animation-name: zoomIn;
+     animation-duration: 2s;
 }
 
 .texto_info{
@@ -138,12 +159,15 @@ section{
 
 .media_cover{
     width: 50%;
+    
 
 }
+
 
 .media_cover img{
     width: 100%;
     margin-top: -40;
+    
 
 }
 
@@ -167,6 +191,8 @@ section{
 
 .buttons_cover{
     margin-top: 30px;
+    animation-name: zoomIn;
+     animation-duration: 2s;
 }
 
 /* BANNER */
@@ -526,6 +552,98 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     }
     
 
+}
+
+ p {
+    line-height: 1.8;
+  }
+  
+  .card {
+    max-width: 90%;
+    padding: 30px;
+    
+  }
+  
+  select {
+    display: inline;
+    text-align: center;
+    border: 1px solid rgb(27, 169, 39);
+  }
+
+
+.producto {
+    
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background: linear-gradient(145deg, #f7efef, #d0c9c9);
+    box-shadow:  5px 5px 19px #847f7f,
+                 -5px -5px 19px #ffffff;
+
+}
+
+.producto:hover{
+    animation-name: pulse;
+    animation-duration: 1s;
+     
+
+}
+
+
+.producto h2{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    
+}
+.producto p{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.precioProducto {
+    font-weight: 700;
+}
+.boton-agregar {
+    background-color: rgb(22, 129, 201);
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px;
+    border: none;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    
+}
+
+#contenedor-producto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    
+}
+
+.imgprod{
+    width: 200px;
+    cursor: pointer;
+   
+}
+
+.productos-destacados{
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding-top: 10px;
+    
+                 
+    background: rgb(135,209,188);
+background: linear-gradient(0deg, rgba(135,209,188,1) 0%, rgba(15,129,241,1) 100%);
 }
 
 
